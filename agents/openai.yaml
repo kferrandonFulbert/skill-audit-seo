@@ -1,0 +1,14 @@
+interface:
+  display_name: Audit SEO & qualité web
+  short_description: Auditer SEO, HTML, performance et accessibilité
+  default_prompt: Utilise $audit-seo-qualite-web pour auditer cette URL ou ce projet
+    et produire un rapport priorisé avec preuves.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
