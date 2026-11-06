@@ -35,13 +35,14 @@
 
 ## Accessibilité — A11Y
 - Lire la recommandation WCAG cible et sa liste complète des critères A/AA. Construire la matrice des critères applicables ; couvrir chaque critère ou le marquer non testé/non applicable avec justification. Identifier explicitement la couverture automatisée et manuelle.
+- Lire la recommandation RGAA cible et sa liste complète des critères ; couvrir chaque critère ou le marquer non testé/non applicable avec justification. Identifier explicitement la couverture automatisée et manuelle.
 - Exécuter axe-core sur plusieurs pages et états : menus, modales, erreurs de formulaire et contenu dynamique. Distinguer violations, points nécessitant revue et contrôles passés. Ne pas compter « incomplete » comme conforme.
 - Vérifier manuellement clavier, ordre/focus visible/non masqué, absence de pièges, lien d’évitement, menus et modales, restitution des noms/rôles/états, annonces dynamiques, labels/instructions/erreurs, langue, titres, liens, structure, tableaux, alternatives pertinentes et médias.
 - Contrôler contraste texte et éléments UI, zoom 200 %, redistribution à 320 pixels CSS, espacement du texte, orientation, mouvements, flashs, alternatives aux gestes et au glisser-déposer, taille des cibles, authentification accessible et saisies redondantes. Appliquer les exceptions exactes du critère, sans réduire la vérification à cette liste.
 - Examiner tous les états concernés et les parcours complets ; tester au lecteur d’écran si disponible en nommant navigateur/technologie d’assistance. Sinon signaler ce contrôle non effectué.
 - Ne pas réintroduire le critère 4.1.1 supprimé de WCAG 2.2 comme obligation de ce référentiel. Conserver la validité HTML dans son propre module.
 - Ne pas publier de déclaration de conformité sur la seule base d’un audit partiel. Pour une demande RGAA ou juridique, vérifier séparément le référentiel et son champ applicable.
-- Sources : https://www.w3.org/TR/WCAG22/ ; https://www.w3.org/WAI/WCAG22/quickref/ ; https://www.w3.org/WAI/test-evaluate/ ; https://www.w3.org/TR/wai-aria-practices/ ; https://github.com/dequelabs/axe-core;  https://webaim.org/resources/contrastchecker/
+- Sources : https://www.w3.org/TR/WCAG22/ ; https://www.w3.org/WAI/WCAG22/quickref/ ; https://www.w3.org/WAI/test-evaluate/ ; https://www.w3.org/TR/wai-aria-practices/ ; https://github.com/dequelabs/axe-core;  https://webaim.org/resources/contrastchecker/ ; https://accessibilite.numerique.gouv.fr/ ; https://rgaa-checker.com/
 
 ## Contrat d’extension
 Pour chaque ajout demandé, définir un préfixe stable, les déclencheurs et exclusions, le référentiel daté, les données/outils nécessaires, les contrôles et preuves, les limites, les recommandations et les tests de correction. Charger le module seulement lorsqu’il est pertinent. Conserver les résultats non comparables séparés.

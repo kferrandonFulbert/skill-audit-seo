@@ -6,6 +6,7 @@ description: Auditer en français le SEO, la performance, la validité HTML/CSS 
 
 
 
+
 # Audit SEO & qualité web
 
 ## Démarrer
@@ -31,8 +32,8 @@ Lire [references/modules.md](references/modules.md) pour les contrôles et sourc
 
 Séparer explicitement :
 - **validité HTML/CSS** : conformité syntaxique mesurée par validateur, par document et état testé ;
-- **accessibilité** : contrôles automatisés et manuels par critère WCAG ;
-- **SEO** : observabilité technique, pertinence éditoriale et données de recherche disponibles ;
+- **accessibilité** : contrôles automatisés et manuels par critère WCAG RGAA ;
+- **SEO / GEO** : observabilité technique, pertinence éditoriale et données de recherche disponibles ;
 - **performance** : mesures de laboratoire et données utilisateurs réelles.
 
 Pour WCAG, cibler par défaut WCAG 2.2 A et AA, vérifier le statut courant et conserver cette cible sauf besoin explicite d’un autre référentiel. Proposer AAA en complément, sans le mélanger au résultat AA. Ne jamais conclure à une conformité globale à partir d’axe, de Lighthouse, de la validité HTML ou d’un échantillon incomplet. La validité HTML ne prouve ni accessibilité ni classement SEO. Ne pas confondre audit WCAG et certification juridique/RGAA.
@@ -44,7 +45,7 @@ Produire un rapport français, compréhensible par un responsable de site et exp
 1. Introduction : Contexte du site, domaine d'activité, cible. But de l'audit.
 2. Synthèse : principaux obstacles, opportunités, cinq actions prioritaires.
 3. Périmètre : date, cible, pages et états testés, mode, outils réellement exécutés, versions, référentiels, limites et couverture par module.
-4. Résultats regroupés par module avec tableau : identifiant stable, statut, gravité, URL ou fichier/ligne, constat et preuve, impact, correction, effort estimé, test de validation, source officielle ; inclure critère/niveau pour WCAG. Regrouper les erreurs répétées par cause et donner le nombre d’occurrences. Ajoute une note par module / 100 et une note globale du SEO / 100
+4. Résultats regroupés par module avec tableau : identifiant stable, statut, gravité, URL ou fichier/ligne, constat et preuve, impact, correction, effort estimé, test de validation, source officielle ; inclure critère/niveau pour WCAG, inclure critère/niveau pour RGAA. Regrouper les erreurs répétées par cause et donner le nombre d’occurrences. Ajoute une note par module / 100 et une note globale du SEO / 100
 5. Plan d’action : immédiat, court terme, amélioration continue ; prioriser l’impact utilisateur et métier, les blocages d’exploration, l’étendue et l’effort. Ne pas annoncer de gains chiffrés de trafic sans données.
 6. Contrôles manuels et données manquantes ; expliquer comment les obtenir.
 
